@@ -20,6 +20,7 @@ namespace LectureNotesProject.Pages.Practice
         public String CheckBoxMessage { get; set; }
 
         //s
+        //s
 
         // Properties for Radio Buttons
         [BindProperty] public int SelectedRadioValue { get; set; }
