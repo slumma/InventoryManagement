@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\controlsandforms.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|solutionrelative:inventorymanagement\\pages\\practice\\controlsandforms.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\dblogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|solutionrelative:inventorymanagement\\pages\\practice\\dblogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\controlsandforms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|solutionrelative:inventorymanagement\\pages\\practice\\controlsandforms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\dblogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|solutionrelative:inventorymanagement\\pages\\practice\\dblogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\parameterizedlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|solutionrelative:inventorymanagement\\pages\\practice\\parameterizedlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\dblogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|solutionrelative:inventorymanagement\\pages\\practice\\dblogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8AF993C-6F78-42FF-88D1-24F8747FFCA4}|InventoryManagement\\InventoryManagement.csproj|c:\\users\\sam\\schoolwork\\484\\inventorymanagement\\inventorymanagement\\pages\\practice\\secureloginlanding.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,15 +46,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControlsAndForms.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs",
+              "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs",
+              "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs*",
+              "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T03:36:33.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControlsAndForms.cshtml",
+              "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml",
+              "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml",
+              "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml*",
+              "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T03:36:01.594Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ParameterizedLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ParameterizedLogin.cshtml.cs",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\ParameterizedLogin.cshtml.cs",
@@ -54,12 +88,11 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ParameterizedLogin.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:30:50.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:30:50.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ParameterizedLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ParameterizedLogin.cshtml",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\ParameterizedLogin.cshtml",
@@ -67,12 +100,11 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ParameterizedLogin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T20:30:50.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:30:50.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DBClass.cs",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\DB\\DBClass.cs",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\DB\\DBClass.cs",
@@ -80,12 +112,11 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\DB\\DBClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:20:28.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:20:28.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SecureLoginLanding.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\SecureLoginLanding.cshtml.cs",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\SecureLoginLanding.cshtml.cs",
@@ -93,12 +124,11 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\SecureLoginLanding.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:09:33.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:33.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "SecureLoginLanding.cshtml",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\SecureLoginLanding.cshtml",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\SecureLoginLanding.cshtml",
@@ -106,12 +136,11 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\SecureLoginLanding.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T20:09:32.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:32.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DBLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\DBLogin.cshtml.cs",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\DBLogin.cshtml.cs",
@@ -124,13 +153,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DBLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\DBLogin.cshtml",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\DBLogin.cshtml",
               "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\DBLogin.cshtml",
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\DBLogin.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T20:09:06.1Z",
               "EditorCaption": ""

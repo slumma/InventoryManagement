@@ -19,7 +19,7 @@ namespace LectureNotesProject.Pages.Practice
         [BindProperty] public bool DiscountCheck { get; set; }
         public String CheckBoxMessage { get; set; }
 
-        // he
+        //s
 
         // Properties for Radio Buttons
         [BindProperty] public int SelectedRadioValue { get; set; }

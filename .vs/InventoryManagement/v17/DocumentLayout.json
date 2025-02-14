@@ -46,17 +46,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ControlsAndForms.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs",
-              "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs*",
-              "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs",
+              "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T03:36:33.875Z",
               "EditorCaption": ""
@@ -67,16 +71,11 @@
               "Title": "ControlsAndForms.cshtml",
               "DocumentMoniker": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml",
               "RelativeDocumentMoniker": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml",
-              "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml*",
-              "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml*",
+              "ToolTip": "C:\\Users\\sam\\SchoolWork\\484\\InventoryManagement\\InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml",
+              "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\ControlsAndForms.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-14T03:36:01.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "WhenOpened": "2025-02-14T03:36:01.594Z"
             },
             {
               "$type": "Document",
@@ -148,8 +147,7 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\DBLogin.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:09:08.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:08.731Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "InventoryManagement\\Pages\\Practice\\DBLogin.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T20:09:06.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:09:06.1Z"
             }
           ]
         }
