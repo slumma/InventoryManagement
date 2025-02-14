@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel // what follows this tag will be the name of the C# class that represents the model
+
+@{ 
+    // this @{ } allows you to use code snippets 
+    ViewData["Title"] = "Home page";
+} 
+
+
+<div class="text-center">
+
+
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your first name: </label>
+            <input type="text" name="fname" id="fname" required />
+        </div>
+
+        <div class="form-example">
+            <label for="lname">Enter your last name: </label>
+            <input type="text" name="lname" id="lname" required />
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Go!" />
+        </div>
+    </form>
+
+</div>
+
+@{
+                  /*    for (int i = 0; i < 10; i++)
+                  {
+                  <p>@i</p> // <p> renders the html into the page, to use the variable 'i' we use the '@' to use the actual 'i' value instead of the letter 'i'
+    }
+    */
+}

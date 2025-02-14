@@ -1,0 +1,18 @@
+﻿@page
+@model InventoryManagement.Pages.Products.AddProductsModel
+@{
+}
+
+<form asp-page="AddProducts">
+    <input type="text" asp-for="NewProduct.ProductName" placeholder="Product Name" />
+    <br />
+    <input type="text" asp-for="NewProduct.ProductCost" placeholder="Product Cost" />
+    <br />
+    <input type="text" asp-for="NewProduct.ProductDescription" placeholder="Product Description" width="100" />
+    <br />
+    <br />
+    <button type="submit" class="btn btn-secondary">Add Product -> </button>
+    <br />
+    <a asp-page="/Products/Index">Cancel</a>
+
+</form>

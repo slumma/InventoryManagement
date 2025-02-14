@@ -1,0 +1,20 @@
+﻿@page 
+@model InventoryManagement.Pages.Products.EditProductsModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<form asp-page="EditProducts">
+    <input type="hidden" asp-for="@Model.ProductToUpdate.ProductID" />
+    <label asp-for="@Model.ProductToUpdate.ProductName"></label>
+    <input type="text" asp-for="@Model.ProductToUpdate.ProductName" />
+    <br />
+    <label asp-for="@Model.ProductToUpdate.ProductCost"></label>
+    <input type="text" asp-for="@Model.ProductToUpdate.ProductCost" />
+    <br />
+    <label asp-for="@Model.ProductToUpdate.ProductDescription"></label>
+    <input type="text" asp-for="@Model.ProductToUpdate.ProductDescription" />
+    <br /><br />
+    <input type="submit" class="btn btn-success" asp-page="EditProducts" />
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,19 @@
+﻿@page
+@model InventoryManagement.Pages.Purchases.MakePurchaseModel
+@{
+}
+
+<form asp-action="MakePurchase">
+    <p>Choose Shopper:</p>
+    <br />
+    <select asp-for="ShopperID" asp-items="Model.Shoppers">
+        <option value="">Choose a Shopper</option>
+    </select>
+    <br />
+    <select asp-for="ProductID" asp-items="Model.Products">
+        <option value="">Choose a Product to Purchase</option>
+    </select>
+    <input type="submit" class="btn btn-primary" />
+</form>
+
+<p>Quantity is hard-coded as 1</p>

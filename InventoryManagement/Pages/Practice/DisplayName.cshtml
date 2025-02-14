@@ -1,0 +1,41 @@
+﻿@page
+@model InventoryManagement.Pages.Practice.DisplayNameModel
+
+<div class="text-center">
+
+    <form class="form-example" asp-page="DisplayName">
+        <div class="form-example">
+            <label for="name">Enter your first name: </label>
+            <input type="text" placeholder="Enter your first name" asp-for="FirstName"  />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-example">
+            <label for="lname">Enter your last name: </label>
+            <input type="text" placeholder="Enter your second name" asp-for="SecondName" />
+            <span asp-validation-for="SecondName" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-example">
+            <input type="submit" value="Go!" />
+        </div>
+        <br />
+        <div class="form-example">
+            <button asp-page="DisplayName" asp-page-handler="PopulateHandler" formnovalidate>Populate</button>
+        </div>
+        <br />
+    </form>
+
+    @{
+        if (Model.SecondName != null)
+        {
+            <p>Concatenated name: @Model.FirstName @Model.SecondName</p>
+        }
+    }
+
+    Using a link to send data to another Razor Page:
+    <br />
+    <a asp-page="DisplayData" asp-route-UserID="1212">Login: </a>
+
+</div>
+

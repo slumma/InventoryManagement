@@ -1,0 +1,48 @@
+﻿@page
+@using System.Data.SqlClient
+@using InventoryManagement.Pages.DB
+@model InventoryManagement.Pages.Purchases.IndexModel
+@{
+}
+
+<h2 class="h2">Purchase History:</h2>
+<table class="table table-bordered table-responsive table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Shopper Name:</th>
+            <th>Product Purchased:</th>
+            <th>Product Description:</th>
+            <th>Purchase Quantity:</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            // @ Symbol for a verbatim / multi-line string
+            string sqlQuery = @"select Shopper.ShopperName, Product.ProductName,
+                Product.ProductDescription, Purchase.PurchaseQuantity
+                from Purchase
+                INNER JOIN Product
+                on Product.ProductID = Purchase.ProductID
+                LEFT JOIN Shopper
+                on Shopper.ShopperID = Purchase.ShopperID;
+                ";
+
+            SqlDataReader PurchaseReader = DBClass.GeneralReaderQuery(sqlQuery);
+
+            while (PurchaseReader.Read())
+            {
+                <tr>
+                    <td>@PurchaseReader["ShopperName"]</td>
+                    <td>@PurchaseReader["ProductName"]</td>
+                    <td>@PurchaseReader["ProductDescription"]</td>
+                    <td>@PurchaseReader["PurchaseQuantity"]</td>
+                </tr>
+            }
+
+            DBClass.GroceryDBConnection.Close();
+
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" asp-page="MakePurchase">Record a Purchase -></a>
