@@ -21,6 +21,7 @@ namespace LectureNotesProject.Pages.Practice
 
         //s
         //s
+        /*sdsdjdjs*/
 
         // Properties for Radio Buttons
         [BindProperty] public int SelectedRadioValue { get; set; }

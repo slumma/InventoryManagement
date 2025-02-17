@@ -40,3 +40,4 @@ C:\Users\sam\SchoolWork\484\InventoryManagement\InventoryManagement\bin\Debug\ne
 C:\Users\sam\SchoolWork\484\InventoryManagement\InventoryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\sam\SchoolWork\484\InventoryManagement\InventoryManagement\obj\Debug\net8.0\InventoryManagement.csproj.AssemblyReference.cache
 C:\Users\sam\SchoolWork\484\InventoryManagement\InventoryManagement\obj\Debug\net8.0\Inventor.F96114ED.Up2Date
+C:\Users\sam\SchoolWork\484\InventoryManagement\InventoryManagement\obj\Debug\net8.0\InventoryManagement.sourcelink.json

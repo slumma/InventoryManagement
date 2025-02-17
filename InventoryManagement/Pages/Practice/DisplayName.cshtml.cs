@@ -29,7 +29,8 @@ namespace InventoryManagement.Pages.Practice
         public IActionResult OnPostPopulateHandler()
         {
             ModelState.Clear(); // modelstate is the objct that contains all of the information on the state of th data model
-            SecondName = "Smith";
+            SecondName = null; // to clear form
+            FirstName = "sam"; // to populate 
 
             return Page();  
 
