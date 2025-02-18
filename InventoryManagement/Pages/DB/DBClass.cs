@@ -131,7 +131,43 @@ namespace InventoryManagement.Pages.DB
             int rowCount = (int)cmdLogin.ExecuteScalar();
             return rowCount;
         }
+
+        public static SqlDataReader GeneralStoredProcedureReader(string StoredProcedureName)
+        {
+
+            SqlCommand cmdProductRead = new SqlCommand();
+            cmdProductRead.Connection = GroceryDBConnection;
+            cmdProductRead.Connection.ConnectionString = GroceryDBConnString;
+            cmdProductRead.CommandType = System.Data.CommandType.StoredProcedure;
+            cmdProductRead.CommandText = StoredProcedureName;
+            cmdProductRead.Connection.Open();
+            SqlDataReader tempReader = cmdProductRead.ExecuteReader();
+
+            return tempReader;
+
+        }
+
+        public static bool StoredProcedureLogin(string Username, string Password)
+        {
+
+            SqlCommand cmdProductRead = new SqlCommand();
+            cmdProductRead.Connection = GroceryDBConnection;
+            cmdProductRead.Connection.ConnectionString = GroceryDBConnString;
+            cmdProductRead.CommandType = System.Data.CommandType.StoredProcedure;
+            cmdProductRead.Parameters.AddWithValue("@Username", Username);
+            cmdProductRead.Parameters.AddWithValue("@Password", Password);
+            cmdProductRead.CommandText = "sp_simpleLogin";
+            cmdProductRead.Connection.Open();
+            if (((int)cmdProductRead.ExecuteScalar()) > 0)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
+
+
 }
 
 
